@@ -2,6 +2,8 @@
 
 PuzzleLayouts is a flexible Android library that helps you build custom collage layouts easily. This library comes with a variety of built-in layouts and allows you to create your own custom layouts for images.
 
+You can check out a demo of PuzzleLayouts in action on our [YouTube channel](https://www.youtube.com/watch?v=RTJaQhUUhls&t=18s&ab_channel=CelestialBeats)
+
 **XML Usage**
 
 You can easily integrate PuzzleLayouts in your XML layout:
