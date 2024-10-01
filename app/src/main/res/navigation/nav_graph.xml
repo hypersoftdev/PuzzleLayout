@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragmentEntrance">
+
+    <fragment
+        android:id="@+id/fragmentEntrance"
+        android:name="com.sample.puzzlelayout.app.flow.entrance.ui.FragmentEntrance"
+        android:label="fragment_entrance"
+        tools:layout="@layout/fragment_entrance" >
+        <action
+            android:id="@+id/action_fragmentEntrance_to_fragmentPermission"
+            app:destination="@id/fragmentPermission"
+            app:popUpTo="@id/fragmentPermission"
+            app:popUpToInclusive="false" />
+    </fragment>
+
+    <include app:graph="@navigation/nav_graph_media" />
+
+    <include app:graph="@navigation/nav_graph_layouts" />
+
+    <fragment
+        android:id="@+id/fragmentHome"
+        android:name="com.sample.puzzlelayout.app.flow.home.FragmentHome"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_fragmentHome_to_nav_graph_media"
+            app:destination="@id/nav_graph_media" />
+        <action
+            android:id="@+id/action_fragmentHome_to_nav_graph_layouts"
+            app:destination="@id/nav_graph_layouts" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentPermission"
+        android:name="com.sample.puzzlelayout.app.flow.permissons.FragmentPermission"
+        android:label="fragment_permisson"
+        tools:layout="@layout/fragment_permisson" />
+    <action android:id="@+id/action_global_fragmentHome" app:destination="@id/fragmentHome" />
+
+</navigation>

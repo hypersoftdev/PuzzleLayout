@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_layouts"
+    app:startDestination="@id/fragmentLayouts2">
+
+    <fragment
+        android:id="@+id/fragmentLayouts2"
+        android:name="com.sample.puzzlelayout.app.features.layouts.presentation.ui.FragmentLayouts"
+        android:label="fragment_layouts"
+        tools:layout="@layout/fragment_layouts">
+        <action
+            android:id="@+id/action_fragmentLayouts2_to_fragmentLayoutWithImages"
+            app:destination="@id/fragmentLayoutWithImages" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentLayoutWithImages"
+        android:name="com.sample.puzzlelayout.app.features.layouts.presentation.ui.FragmentLayoutWithImages"
+        android:label="fragment_layout_with_images"
+        tools:layout="@layout/fragment_layout_with_images">
+        <argument
+            android:name="theme"
+            android:defaultValue="0"
+            app:argType="integer" />
+        <argument
+            android:name="size"
+            android:defaultValue="0"
+            app:argType="integer" />
+        <argument
+            android:name="type"
+            android:defaultValue="0"
+            app:argType="integer" />
+    </fragment>
+</navigation>
