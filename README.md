@@ -2,7 +2,19 @@
 
 PuzzleLayouts is a flexible Android library that helps you build custom collage layouts easily. This library comes with a variety of built-in layouts and allows you to create your own custom layouts for images.
 
-You can check out a demo of PuzzleLayouts in action on our [YouTube channel](https://www.youtube.com/watch?v=RTJaQhUUhls&t=18s&ab_channel=CelestialBeats)
+You can check out a demo of PuzzleLayouts in action on our [YouTube channel](https://www.youtube.com/watch?v=RTJaQhUUhls&t=18s&ab_channel=CelestialBeats).Watch how easy it is to create stunning collages with a few simple steps!
+
+**Layout Types**
+
+PuzzleLayouts comes with two types of layouts:
+
+1.**Straight Layout** - clean, straight cuts for a polished look.
+
+2.**Slant Layout** - dynamic, angled cuts for a more creative style.
+
+Below are some sample layouts you can achieve with the library.
+
+![straight](https://github.com/user-attachments/assets/0f04c2fa-9ac4-4475-b02f-2eaa7eac17ea) ![slant](https://github.com/user-attachments/assets/950d3f31-cd80-43dd-a2f6-8286f9509be9)
 
 **XML Usage**
 
@@ -39,7 +51,7 @@ puzzleView.setCanSwap(false)
 puzzleView.setCanZoom(false)
 
 ```
-> [!TIP]
+> [!NOTE]
 **Handling Actions**
 
 You can perform various transformations and actions on the pieces within the puzzle view:
@@ -68,7 +80,7 @@ PuzzleLayouts also supports gesture-based interactions:
 puzzleView.setOnPieceClickListener(this)
 puzzleView.setOnPieceSelectedListener(this)
 ```
-> [!IMPORTANT]
+> [!NOTE]
 **Custom Layouts**
 
 Creating a custom layout is straightforward. Simply extend PuzzleLayout and override the layout method.
@@ -88,13 +100,37 @@ class FiveStraightLayout(theme: Int) : NumberStraightLayout(theme) {
                 addLine(0, Line.Direction.VERTICAL, 1f / 2)
                 cutAreaEqualPart(2, 3, Line.Direction.VERTICAL)
             }
-            // More themes...
+
+            2 -> {
+                addLine(0, Line.Direction.HORIZONTAL, 3f / 4)
+                cutAreaEqualPart(1, 4, Line.Direction.VERTICAL)
+            }
+
+            3 -> {
+                addLine(0, Line.Direction.HORIZONTAL, 1f / 4)
+                addLine(1, Line.Direction.HORIZONTAL, 2f / 3)
+                addLine(0, Line.Direction.VERTICAL, 1f / 2)
+                addLine(3, Line.Direction.VERTICAL, 1f / 2)
+            }
+
+            4 -> {
+                addCross(0, 1f / 3)
+                addLine(2, Line.Direction.HORIZONTAL, 1f / 2)
+            }
+
+            5 -> cutSpiral(0)
+
+            6 -> {
+                addLine(0, Line.Direction.HORIZONTAL, 2f / 3)
+                cutAreaEqualPart(0, 1, 1)
+            }
+
+            else -> cutAreaEqualPart(0, 5, Line.Direction.HORIZONTAL)
         }
     }
 }
-
 ```
-> [!NOTE]
+> [!IMPORTANT]
 Some of the provided helper methods include:
 
 ```kotlin
