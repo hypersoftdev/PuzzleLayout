@@ -1,22 +1,31 @@
-**PuzzleLayouts - Collage Layouts Library for Android**
+# PuzzleLayouts - Collage Layouts Library for Android
 
 PuzzleLayouts is a flexible Android library that helps you build custom collage layouts easily. This library comes with a variety of built-in layouts and allows you to create your own custom layouts for images.
 
 You can check out a demo of PuzzleLayouts in action on our [YouTube channel](https://www.youtube.com/watch?v=RTJaQhUUhls&t=18s&ab_channel=CelestialBeats).Watch how easy it is to create stunning collages with a few simple steps!
 
-**Layout Types**
+# **Layout Types:**
 
 PuzzleLayouts comes with two types of layouts:
-
-1.**Straight Layout** - clean, straight cuts for a polished look.
-
-2.**Slant Layout** - dynamic, angled cuts for a more creative style.
-
+```
+ 1.Straight Layout - clean, straight cuts for a polished look.
+ 2.Slant Layout - dynamic, angled cuts for a more creative style.
+```
 Below are some sample layouts you can achieve with the library.
 
-![straight](https://github.com/user-attachments/assets/0f04c2fa-9ac4-4475-b02f-2eaa7eac17ea) ![slant](https://github.com/user-attachments/assets/950d3f31-cd80-43dd-a2f6-8286f9509be9)
+![straight1](https://github.com/user-attachments/assets/b0a8134c-6cb4-4ab5-ae6e-aaf69ed535cb)
+![slant1](https://github.com/user-attachments/assets/3cafb2f6-82b7-4991-91bd-6bf4a6dd90bf)
 
-**XML Usage**
+# **Features:**
+```
+ -Predefined layouts for multiple images (supports up to 5 by default but you can as many you want i.e 10 images layout or 16 images layout).
+ -Customization options for line size, colors, padding, and piece radius.
+ -Easy handling of puzzle pieces (flip, rotate, zoom, mirror).
+ -you can swape two images (Just long press on image and swape by other image)
+ -Support for custom layout creation by extending **PuzzleLayout**.
+ -Gesture support for selecting and interacting with puzzle pieces.
+```
+# **XML Usage**
 
 You can easily integrate PuzzleLayouts in your XML layout:
 ```kotlin
@@ -33,7 +42,7 @@ You can easily integrate PuzzleLayouts in your XML layout:
     android:background="@android:color/white"
     app:radian="30" />
 ```
-**Kotlin Usage**
+# **Kotlin Usage**
 
 After setting up your layout in XML, you can modify the behavior and appearance of the puzzle view in your Kotlin code:
 
@@ -72,7 +81,7 @@ puzzleView.setNeedDrawLine(!puzzleView.isNeedDrawLine())
 puzzleView.swipePieceFunction()
 
 ```
-**Gesture Detector Support**
+# **Gesture Detector Support**
 
 PuzzleLayouts also supports gesture-based interactions:
 
@@ -141,6 +150,14 @@ addCross(position = 0, horizontalRatio = 2f / 3, verticalRatio = 1f / 3)
 addCross(position = 0, ratio = 2f / 3)
 cutSpiral(position = 0)
 ```
+
+Below are some sample layouts you can achieve by using above mention helper methods.
+
+![L1](https://github.com/user-attachments/assets/c32cef1e-ef1e-40c6-844a-758e64376db2)
+![L2](https://github.com/user-attachments/assets/94b9f06d-2a1a-47a2-8ac5-f69073427400)
+![L3](https://github.com/user-attachments/assets/c39a48bc-a589-44f7-8378-29e5abf55ce0)
+
+
 
 
 
