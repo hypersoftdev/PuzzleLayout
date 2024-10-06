@@ -8,13 +8,13 @@ object SlantLayoutHelper {
         val puzzleLayouts = mutableListOf<PuzzleLayout>()
         when (pieceCount) {
             2 -> {
-                for (i in 0 until 4) {
+                for (i in 0 until 3) {
                     puzzleLayouts.add(TwoSlantLayout(i))
                 }
             }
 
             3 -> {
-                for (i in 0 until 8) {
+                for (i in 0 until 3) {
                     puzzleLayouts.add(ThreeSlantLayout(i))
                 }
             }

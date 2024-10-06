@@ -14,7 +14,7 @@ class FourStraightLayout(theme: Int) : NumberStraightLayout(theme) {
             1 -> cutAreaEqualPart(0, 4, Line.Direction.VERTICAL)
             2 -> {
                 addLine(0, Line.Direction.HORIZONTAL, 1f / 2)
-                addLine(0, Line.Direction.VERTICAL, 1f / 2)
+                cutAreaEqualPart(0, 3, Line.Direction.VERTICAL)
             }
 
             3 -> {

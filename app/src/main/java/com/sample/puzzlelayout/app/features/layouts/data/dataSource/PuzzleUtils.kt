@@ -34,8 +34,9 @@ class PuzzleUtils {
     fun getAllPuzzleLayouts(): List<PuzzleLayout> {
         return mutableListOf<PuzzleLayout>().apply {
             addAll(SlantLayoutHelper.getAllThemeLayout(2))
-            addAll(StraightLayoutHelper.getAllThemeLayout(2))
             addAll(SlantLayoutHelper.getAllThemeLayout(3))
+
+            addAll(StraightLayoutHelper.getAllThemeLayout(2))
             addAll(StraightLayoutHelper.getAllThemeLayout(3))
             addAll(StraightLayoutHelper.getAllThemeLayout(4))
             addAll(StraightLayoutHelper.getAllThemeLayout(5))
