@@ -88,6 +88,26 @@ PuzzleLayouts also supports gesture-based interactions:
 ```kotlin
 puzzleView.setOnPieceClickListener(this)
 puzzleView.setOnPieceSelectedListener(this)
+override fun onPieceClick() {
+        // Perform operation when single piece select
+    }
+
+    override fun onSwapGetPositions(pos1: Int, pos2: Int) {
+        // When Two images swape get positions of images
+    }
+
+    override fun onPieceSelected(piece: PuzzlePiece?, position: Int) {
+        // you can get followings attribute when pieceSelected
+        piece?.drawable
+        piece?.areaCenterPoint
+        piece?.path
+        piece?.height
+        piece?.width
+        piece?.currentDrawablePoints
+        piece?.area
+        piece?.matrix
+        piece?.matrixAngle
+    }
 ```
 > [!NOTE]
 **Custom Layouts**
