@@ -16,16 +16,35 @@ Below are some sample layouts you can achieve with the library.
 ![straight1](https://github.com/user-attachments/assets/b0a8134c-6cb4-4ab5-ae6e-aaf69ed535cb)
 ![slant1](https://github.com/user-attachments/assets/3cafb2f6-82b7-4991-91bd-6bf4a6dd90bf)
 
-# **Features:**
-```
- -Predefined layouts for multiple images (supports up to 5 by default but you can as many you want i.e 10 images layout or 16 images layout).
- -Customization options for line size, colors, padding, and piece radius.
- -Easy handling of puzzle pieces (flip, rotate, zoom, mirror).
- -you can swape two images (Just long press on image and swape by other image)
- -Support for custom layout creation by extending **PuzzleLayout**.
- -Gesture support for selecting and interacting with puzzle pieces.
-```
-# **XML Usage**
+# **Attribute:**
+
+**PuzzleView** is a custom Android view that allows users to interact with a puzzle made of pieces, offering features like selection, manipulation, and customization.
+
+| Attribute                 | Format          | Description                                                                                     |
+|---------------------------|-----------------|-------------------------------------------------------------------------------------------------|
+| `setSelected(position)`    | `Int`           | Selects a puzzle piece at the specified position.                                             |
+| `handlingPiecePosition`    | `Int`           | Gets the position index of the currently handling puzzle piece.                               |
+| `hasPieceSelected()`       | `Boolean`       | Checks if any puzzle piece is currently selected.                                             |
+| `setAnimateDuration(duration)` | `Int`       | Sets the animation duration for puzzle piece transformations.                                  |
+| `isNeedDrawLine()`        | `Boolean`       | Returns whether lines should be drawn between puzzle pieces.                                   |
+| `setNeedDrawLine(needDrawLine)` | `Boolean` | Sets whether lines should be drawn between pieces.                                            |
+| `getLineColor()`          | `Int`           | Gets the current line color used in the puzzle layout.                                        |
+| `setLineColor(lineColor)` | `Int`           | Sets the line color for the puzzle layout and invalidates the view for redrawing.             |
+| `moveLeft()`              | `Void`          | Moves the currently selected piece 5 units to the left.                                       |
+| `moveRight()`             | `Void`          | Moves the currently selected piece 5 units to the right.                                      |
+| `rotatePiece()`           | `Void`          | Rotates the currently selected piece by 90 degrees.                                           |
+| `zoomInPiece()`           | `Void`          | Zooms in on the currently selected piece by 10%.                                              |
+| `zoomOutPiece()`          | `Void`          | Zooms out of the currently selected piece by 10%.                                             |
+| `mirrorPiece()`           | `Void`          | Flips the currently selected piece horizontally.                                               |
+| `flipPiece()`             | `Void`          | Flips the currently selected piece vertically.                                                 |
+| `setPiecePadding(padding)` | `Float`        | Sets the padding for each puzzle piece.                                                        |
+| `setPieceRadian(radian)`  | `Float`         | Sets the corner radius for puzzle pieces.                                                      |
+| `setQuickMode(quickMode)` | `Boolean`       | Enables or disables quick mode for piece manipulation.                                        |
+| `setOnPieceSelectedListener(onPieceSelectedListener)` | `OnPieceSelectedListener` | Sets the listener to be notified when a piece is selected.|
+| `setOnPieceClickListener(onPieceClick)` | `OnPieceClick` | Sets the listener to handle piece click events.                                   |
+
+# **Implementation**
+**XML Usage**
 
 You can easily integrate PuzzleLayouts in your XML layout:
 ```kotlin
@@ -42,7 +61,7 @@ You can easily integrate PuzzleLayouts in your XML layout:
     android:background="@android:color/white"
     app:radian="30" />
 ```
-# **Kotlin Usage**
+**Kotlin Usage**
 
 After setting up your layout in XML, you can modify the behavior and appearance of the puzzle view in your Kotlin code:
 
