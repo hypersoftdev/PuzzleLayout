@@ -7,6 +7,14 @@ import com.puzzle.layouts.interfaces.Area
 import com.puzzle.layouts.interfaces.Line
 import java.util.Arrays
 
+/**
+ *   Developer: Abdul Rehman Hassan
+ *   Date: 16/09/2024
+ *   Profile:
+ *     -> github.com/CelestialBeats
+ *     -> linkedin.com/in/celestialbeats
+ */
+
 // StraightArea represents a rectangular area that can be defined by four straight lines.
 // It provides methods to calculate the boundaries, center, and whether points or lines are within the area.
 class StraightArea : Area {

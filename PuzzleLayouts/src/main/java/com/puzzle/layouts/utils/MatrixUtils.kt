@@ -9,6 +9,14 @@ import kotlin.math.max
 import kotlin.math.pow
 import kotlin.math.sqrt
 
+/**
+ *   Developer: Abdul Rehman Hassan
+ *   Date: 16/09/2024
+ *   Profile:
+ *     -> github.com/CelestialBeats
+ *     -> linkedin.com/in/celestialbeats
+ */
+
 object MatrixUtils {
 
     // This is a temporary storage for matrix values and a reusable matrix to optimize performance.

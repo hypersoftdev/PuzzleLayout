@@ -3,6 +3,14 @@ package com.puzzle.layouts.layouts.straight
 import android.util.Log
 import com.puzzle.layouts.interfaces.Line
 
+/**
+ *   Developer: Abdul Rehman Hassan
+ *   Date: 16/09/2024
+ *   Profile:
+ *     -> github.com/CelestialBeats
+ *     -> linkedin.com/in/celestialbeats
+ */
+
 class TwoStraightLayout : NumberStraightLayout {
 
     private var mRadio: Float = 1f / 2

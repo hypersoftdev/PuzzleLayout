@@ -9,6 +9,14 @@ import kotlin.math.min
 import kotlin.math.pow
 import kotlin.math.sqrt
 
+/**
+ *   Developer: Abdul Rehman Hassan
+ *   Date: 16/09/2024
+ *   Profile:
+ *     -> github.com/CelestialBeats
+ *     -> linkedin.com/in/celestialbeats
+ */
+
 // The StraightLine class represents a line that can either be horizontal or vertical.
 // It defines behavior for moving and interacting with the line within a layout.
 class StraightLine(private val start: PointF, private val end: PointF) : Line {

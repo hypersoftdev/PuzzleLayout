@@ -5,6 +5,14 @@ import android.util.Pair
 import com.puzzle.layouts.interfaces.Line
 
 /**
+ *   Developer: Abdul Rehman Hassan
+ *   Date: 16/09/2024
+ *   Profile:
+ *     -> github.com/CelestialBeats
+ *     -> linkedin.com/in/celestialbeats
+ */
+
+/**
  * Utility object providing functions to manipulate StraightArea and create StraightLine instances.
  * This object includes methods for creating lines, cutting areas, and generating line patterns
  * for straight puzzle layouts.

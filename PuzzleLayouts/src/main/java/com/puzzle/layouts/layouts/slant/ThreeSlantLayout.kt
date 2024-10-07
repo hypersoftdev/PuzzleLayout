@@ -2,6 +2,14 @@ package com.puzzle.layouts.layouts.slant
 
 import com.puzzle.layouts.interfaces.Line
 
+/**
+ *   Developer: Abdul Rehman Hassan
+ *   Date: 16/09/2024
+ *   Profile:
+ *     -> github.com/CelestialBeats
+ *     -> linkedin.com/in/celestialbeats
+ */
+
 class ThreeSlantLayout(theme: Int) : NumberSlantLayout(theme) {
 
     override fun getThemeCount(): Int {

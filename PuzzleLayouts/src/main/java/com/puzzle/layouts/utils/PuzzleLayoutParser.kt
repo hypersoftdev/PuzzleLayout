@@ -5,6 +5,13 @@ import com.puzzle.layouts.interfaces.PuzzleLayout
 import com.puzzle.layouts.slant.SlantPuzzleLayout
 import com.puzzle.layouts.straight.StraightPuzzleLayout
 
+/**
+ *   Developer: Abdul Rehman Hassan
+ *   Date: 16/09/2024
+ *   Profile:
+ *     -> github.com/CelestialBeats
+ *     -> linkedin.com/in/celestialbeats
+ */
 internal object PuzzleLayoutParser {
 
     /**

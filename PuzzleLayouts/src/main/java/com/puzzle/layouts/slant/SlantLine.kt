@@ -11,6 +11,14 @@ import kotlin.math.pow
 import kotlin.math.sqrt
 
 /**
+ *   Developer: Abdul Rehman Hassan
+ *   Date: 16/09/2024
+ *   Profile:
+ *     -> github.com/CelestialBeats
+ *     -> linkedin.com/in/celestialbeats
+ */
+
+/**
  * Represents a slanted line defined by its starting and ending points.
  * Implements the Line interface to provide methods for line manipulation
  * and calculations, including length, direction, and movement.

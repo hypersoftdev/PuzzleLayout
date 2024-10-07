@@ -10,6 +10,14 @@ import com.puzzle.layouts.slant.SlantUtils.cutAreaWith
 import java.util.Collections
 
 /**
+ *   Developer: Abdul Rehman Hassan
+ *   Date: 16/09/2024
+ *   Profile:
+ *     -> github.com/CelestialBeats
+ *     -> linkedin.com/in/celestialbeats
+ */
+
+/**
  * An abstract class representing a layout for slant puzzle pieces.
  * It extends the PuzzleLayout interface and provides methods to manage
  * slanted lines and areas within the layout.

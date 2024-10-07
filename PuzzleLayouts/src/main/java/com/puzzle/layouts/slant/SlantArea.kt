@@ -14,6 +14,14 @@ import kotlin.math.max
 import kotlin.math.min
 
 /**
+ *   Developer: Abdul Rehman Hassan
+ *   Date: 16/09/2024
+ *   Profile:
+ *     -> github.com/CelestialBeats
+ *     -> linkedin.com/in/celestialbeats
+ */
+
+/**
  * Represents a slanted area defined by four lines (left, top, right, bottom)
  * and its corner points. The area can have padding and can be adjusted with
  * a slant angle (radian). It implements the Area interface to provide

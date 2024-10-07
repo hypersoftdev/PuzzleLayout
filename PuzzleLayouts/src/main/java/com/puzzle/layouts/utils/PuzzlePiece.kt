@@ -19,6 +19,13 @@ import com.puzzle.layouts.utils.MatrixUtils.getMatrixAngle
 import com.puzzle.layouts.utils.MatrixUtils.getMatrixScale
 import com.puzzle.layouts.utils.MatrixUtils.getMinMatrixScale
 
+/**
+ *   Developer: Abdul Rehman Hassan
+ *   Date: 16/09/2024
+ *   Profile:
+ *     -> github.com/CelestialBeats
+ *     -> linkedin.com/in/celestialbeats
+ */
 class PuzzlePiece internal constructor(
     @JvmField var drawable: Drawable, // The image or shape drawn within this puzzle piece
     @JvmField var area: Area, // Defines the boundaries or area of the puzzle piece

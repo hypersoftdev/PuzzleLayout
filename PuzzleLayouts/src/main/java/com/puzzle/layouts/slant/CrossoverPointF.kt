@@ -3,6 +3,14 @@ package com.puzzle.layouts.slant
 import android.graphics.PointF
 
 /**
+ *   Developer: Abdul Rehman Hassan
+ *   Date: 16/09/2024
+ *   Profile:
+ *     -> github.com/CelestialBeats
+ *     -> linkedin.com/in/celestialbeats
+ */
+
+/**
  * CrossoverPointF represents a point of intersection between two slant lines.
  * It extends the PointF class to include references to horizontal and vertical
  * slant lines that intersect at this point.

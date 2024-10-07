@@ -10,6 +10,14 @@ import kotlin.math.pow
 import kotlin.math.sqrt
 
 /**
+ *   Developer: Abdul Rehman Hassan
+ *   Date: 16/09/2024
+ *   Profile:
+ *     -> github.com/CelestialBeats
+ *     -> linkedin.com/in/celestialbeats
+ */
+
+/**
  * Utility object providing functions to manipulate SlantArea and create SlantLine instances.
  * This object includes methods for creating lines, cutting areas, and generating line patterns
  * for Slant puzzle layouts.

@@ -4,6 +4,13 @@ import android.content.Context
 import android.util.AttributeSet
 import com.puzzle.layouts.view.PuzzleView
 
+/**
+ *   Developer: Abdul Rehman Hassan
+ *   Date: 16/09/2024
+ *   Profile:
+ *     -> github.com/CelestialBeats
+ *     -> linkedin.com/in/celestialbeats
+ */
 class SquarePuzzleView : PuzzleView {
 
     constructor(context: Context?) : super(context)

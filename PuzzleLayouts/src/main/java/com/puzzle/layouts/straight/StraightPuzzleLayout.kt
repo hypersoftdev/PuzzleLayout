@@ -13,6 +13,14 @@ import com.puzzle.layouts.straight.StraightUtils.cutAreaSpiral
 import java.util.Collections
 
 /**
+ *   Developer: Abdul Rehman Hassan
+ *   Date: 16/09/2024
+ *   Profile:
+ *     -> github.com/CelestialBeats
+ *     -> linkedin.com/in/celestialbeats
+ */
+
+/**
  * Abstract class representing a straight puzzle layout.
  * This class manages the layout of puzzle areas and lines,
  * allowing for the addition of lines and manipulation of areas

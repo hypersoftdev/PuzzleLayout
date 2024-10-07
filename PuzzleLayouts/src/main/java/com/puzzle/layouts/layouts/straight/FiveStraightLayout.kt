@@ -2,6 +2,13 @@ package com.puzzle.layouts.layouts.straight
 
 import com.puzzle.layouts.interfaces.Line
 
+/**
+ *   Developer: Abdul Rehman Hassan
+ *   Date: 16/09/2024
+ *   Profile:
+ *     -> github.com/CelestialBeats
+ *     -> linkedin.com/in/celestialbeats
+ */
 class FiveStraightLayout(theme: Int) : NumberStraightLayout(theme) {
 
     override fun getThemeCount(): Int {
