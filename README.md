@@ -43,35 +43,6 @@ Include the PuzzleLayouts library in your **app-level** `build.gradle` file. Rep
 implementation 'com.github.hypersoftdev:PuzzleLayouts:x.x.x'
 ```
 
-## Attributes
-
-**PuzzleView** is a custom Android view that allows users to interact with puzzle pieces, offering features like selection, manipulation, and customization.
-
-| Attribute                 | Format          | Description                                                                                     |
-|---------------------------|-----------------|-------------------------------------------------------------------------------------------------|
-| `setSelected(position)`    | `Int`           | Selects a puzzle piece at the specified position.                                               |
-| `handlingPiecePosition`    | `Int`           | Gets the position index of the currently handling puzzle piece.                                 |
-| `hasPieceSelected()`       | `Boolean`       | Checks if any puzzle piece is currently selected.                                               |
-| `setAnimateDuration(duration)` | `Int`       | Sets the animation duration for puzzle piece transformations.                                   |
-| `isNeedDrawLine()`         | `Boolean`       | Returns whether lines should be drawn between puzzle pieces.                                    |
-| `setNeedDrawLine(needDrawLine)` | `Boolean` | Sets whether lines should be drawn between pieces.                                              |
-| `getLineColor()`           | `Int`           | Gets the current line color used in the puzzle layout.                                          |
-| `setLineColor(lineColor)`  | `Int`           | Sets the line color for the puzzle layout and invalidates the view for redrawing.               |
-| `moveLeft()`               | `Void`          | Moves the currently selected piece 5 units to the left.                                         |
-| `moveRight()`              | `Void`          | Moves the currently selected piece 5 units to the right.                                        |
-| `rotatePiece()`            | `Void`          | Rotates the currently selected piece by 90 degrees.                                             |
-| `zoomInPiece()`            | `Void`          | Zooms in on the currently selected piece by 10%.                                                |
-| `zoomOutPiece()`           | `Void`          | Zooms out of the currently selected piece by 10%.                                               |
-| `mirrorPiece()`            | `Void`          | Flips the currently selected piece horizontally.                                                |
-| `flipPiece()`              | `Void`          | Flips the currently selected piece vertically.                                                  |
-| `setPiecePadding(padding)` | `Float`         | Sets the padding for each puzzle piece.                                                         |
-| `setPieceRadian(radian)`   | `Float`         | Sets the corner radius for puzzle pieces.                                                       |
-| `setQuickMode(quickMode)`  | `Boolean`       | Enables or disables quick mode for piece manipulation.                                          |
-| `setOnPieceSelectedListener(onPieceSelectedListener)` | `OnPieceSelectedListener` | Sets the listener to be notified when a piece is selected.|
-| `setOnPieceClickListener(onPieceClick)` | `OnPieceClick` | Sets the listener to handle piece click events.                                      |
-
----
-
 ## Implementation
 
 ### XML Usage
@@ -217,6 +188,36 @@ addCross(position = 0, horizontalRatio = 2f / 3, verticalRatio = 1f / 3)
 addCross(position = 0, ratio = 2f / 3)
 cutSpiral(position = 0)
 ```
+
+## Attributes
+
+**PuzzleView** is a custom Android view that allows users to interact with puzzle pieces, offering features like selection, manipulation, and customization.
+
+| Attribute                 | Format          | Description                                                                                     |
+|---------------------------|-----------------|-------------------------------------------------------------------------------------------------|
+| `setSelected(position)`    | `Int`           | Selects a puzzle piece at the specified position.                                               |
+| `handlingPiecePosition`    | `Int`           | Gets the position index of the currently handling puzzle piece.                                 |
+| `hasPieceSelected()`       | `Boolean`       | Checks if any puzzle piece is currently selected.                                               |
+| `setAnimateDuration(duration)` | `Int`       | Sets the animation duration for puzzle piece transformations.                                   |
+| `isNeedDrawLine()`         | `Boolean`       | Returns whether lines should be drawn between puzzle pieces.                                    |
+| `setNeedDrawLine(needDrawLine)` | `Boolean` | Sets whether lines should be drawn between pieces.                                              |
+| `getLineColor()`           | `Int`           | Gets the current line color used in the puzzle layout.                                          |
+| `setLineColor(lineColor)`  | `Int`           | Sets the line color for the puzzle layout and invalidates the view for redrawing.               |
+| `moveLeft()`               | `Void`          | Moves the currently selected piece 5 units to the left.                                         |
+| `moveRight()`              | `Void`          | Moves the currently selected piece 5 units to the right.                                        |
+| `rotatePiece()`            | `Void`          | Rotates the currently selected piece by 90 degrees.                                             |
+| `zoomInPiece()`            | `Void`          | Zooms in on the currently selected piece by 10%.                                                |
+| `zoomOutPiece()`           | `Void`          | Zooms out of the currently selected piece by 10%.                                               |
+| `mirrorPiece()`            | `Void`          | Flips the currently selected piece horizontally.                                                |
+| `flipPiece()`              | `Void`          | Flips the currently selected piece vertically.                                                  |
+| `setPiecePadding(padding)` | `Float`         | Sets the padding for each puzzle piece.                                                         |
+| `setPieceRadian(radian)`   | `Float`         | Sets the corner radius for puzzle pieces.                                                       |
+| `setQuickMode(quickMode)`  | `Boolean`       | Enables or disables quick mode for piece manipulation.                                          |
+| `setOnPieceSelectedListener(onPieceSelectedListener)` | `OnPieceSelectedListener` | Sets the listener to be notified when a piece is selected.|
+| `setOnPieceClickListener(onPieceClick)` | `OnPieceClick` | Sets the listener to handle piece click events.                                      |
+
+---
+
 
 ## Sample Screens
 Below are some sample layouts you can achieve using the helper methods:
