@@ -18,7 +18,7 @@
         app:title="@string/app_name"
         app:titleTextColor="@color/white" />
 
-    <com.puzzle.layouts.SquarePuzzleView
+    <com.hypersoft.pzlayout.SquarePuzzleView
         android:id="@+id/puzzle_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

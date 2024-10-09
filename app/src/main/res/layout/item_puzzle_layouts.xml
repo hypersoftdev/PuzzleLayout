@@ -5,7 +5,7 @@
     android:orientation="vertical"
     android:padding="8dp">
 
-    <com.puzzle.layouts.SquarePuzzleView
+    <com.hypersoft.pzlayout.SquarePuzzleView
         android:id="@+id/puzzle"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />

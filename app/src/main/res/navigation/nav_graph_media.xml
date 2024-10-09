@@ -8,7 +8,7 @@
 
     <fragment
         android:id="@+id/fragmentMediaImage"
-        android:name="com.sample.puzzlelayout.app.features.media.presentation.images.ui.FragmentMediaImage"
+        android:name="com.hypersoft.puzzlelayouts.app.features.media.presentation.images.ui.FragmentMediaImage"
         android:label="fragment_media_image"
         tools:layout="@layout/fragment_media_image" >
         <action
@@ -17,7 +17,7 @@
     </fragment>
     <fragment
         android:id="@+id/fragmentMediaImagesLayouts"
-        android:name="com.sample.puzzlelayout.app.features.media.presentation.images.ui.FragmentMediaImagesLayouts"
+        android:name="com.hypersoft.puzzlelayouts.app.features.media.presentation.images.ui.FragmentMediaImagesLayouts"
         android:label="fragment_media_images_layouts"
         tools:layout="@layout/fragment_media_images_layouts" />
 </navigation>

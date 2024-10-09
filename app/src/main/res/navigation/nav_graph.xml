@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/fragmentEntrance"
-        android:name="com.sample.puzzlelayout.app.flow.entrance.ui.FragmentEntrance"
+        android:name="com.hypersoft.puzzlelayouts.app.flow.entrance.ui.FragmentEntrance"
         android:label="fragment_entrance"
         tools:layout="@layout/fragment_entrance" >
         <action
@@ -23,7 +23,7 @@
 
     <fragment
         android:id="@+id/fragmentHome"
-        android:name="com.sample.puzzlelayout.app.flow.home.FragmentHome"
+        android:name="com.hypersoft.puzzlelayouts.app.flow.home.FragmentHome"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home">
         <action
@@ -36,7 +36,7 @@
     </fragment>
     <fragment
         android:id="@+id/fragmentPermission"
-        android:name="com.sample.puzzlelayout.app.flow.permissons.FragmentPermission"
+        android:name="com.hypersoft.puzzlelayouts.app.flow.permissons.FragmentPermission"
         android:label="fragment_permisson"
         tools:layout="@layout/fragment_permisson" />
     <action android:id="@+id/action_global_fragmentHome" app:destination="@id/fragmentHome" />

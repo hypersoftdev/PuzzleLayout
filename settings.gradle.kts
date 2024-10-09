@@ -21,4 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "PuzzleLayout"
 include(":app")
-include(":PuzzleLayouts")
+include(":puzzlelayout")

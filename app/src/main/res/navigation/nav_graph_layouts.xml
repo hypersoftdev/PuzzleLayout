@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/fragmentLayouts2"
-        android:name="com.sample.puzzlelayout.app.features.layouts.presentation.ui.FragmentLayouts"
+        android:name="com.hypersoft.puzzlelayouts.app.features.layouts.presentation.ui.FragmentLayouts"
         android:label="fragment_layouts"
         tools:layout="@layout/fragment_layouts">
         <action
@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/fragmentLayoutWithImages"
-        android:name="com.sample.puzzlelayout.app.features.layouts.presentation.ui.FragmentLayoutWithImages"
+        android:name="com.hypersoft.puzzlelayouts.app.features.layouts.presentation.ui.FragmentLayoutWithImages"
         android:label="fragment_layout_with_images"
         tools:layout="@layout/fragment_layout_with_images">
         <argument

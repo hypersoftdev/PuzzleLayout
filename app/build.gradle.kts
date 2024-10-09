@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.sample.puzzlelayout"
+    namespace = "com.hypersoft.puzzlelayouts"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.sample.puzzlelayout"
+        applicationId = "com.hypersoft.puzzlelayouts"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -25,8 +25,8 @@ android {
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
         }
         release {
-            isMinifyEnabled = true
-            isShrinkResources = true
+            isMinifyEnabled = false
+            isShrinkResources = false
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
         }
     }
@@ -46,18 +46,11 @@ android {
 }
 
 dependencies {
-    implementation(project(":PuzzleLayouts"))
-
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
-
-    // Unit Testing
-    testImplementation(libs.junit)
-    androidTestImplementation(libs.androidx.junit)
-    androidTestImplementation(libs.androidx.espresso.core)
 
     // glide
     implementation(libs.glide)
@@ -81,4 +74,7 @@ dependencies {
 
     // sdp
     implementation(libs.sdp)
+
+
+    implementation(project(":puzzlelayout"))
 }
