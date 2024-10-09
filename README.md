@@ -231,7 +231,7 @@ Below are some sample layouts you can achieve using the helper methods:
 
 This work would not have been possible without the invaluable contributions of [Abdul Rehman Hassan](https://github.com/CelestialBeats). His expertise, dedication, and unwavering support have been instrumental in bringing this project to fruition.
 
-![Profile](https://github.com/hypersoftdev/CyclicSeekbar/blob/master/screens/profile_image.jpg?raw=true)
+![Profile](https://github.com/hypersoftdev/PuzzleLayout/blob/master/screens/image_profile.jpg?raw=true)
 
 We are deeply grateful for [Abdul Rehman Hassan](https://github.com/CelestialBeats) involvement and his belief in the importance of this work. His contributions have made a significant impact, and we are honored to have had the opportunity to collaborate with him.
 
