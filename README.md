@@ -1,3 +1,4 @@
+[![](https://jitpack.io/v/hypersoftdev/PuzzleLayout.svg)](https://jitpack.io/#hypersoftdev/PuzzleLayout)
 # PuzzleLayouts
 
 **PuzzleLayouts** is a flexible Android library that helps you build custom collage layouts easily. This library offers a variety of built-in layouts and allows you to create your own custom layouts for images.
@@ -37,10 +38,10 @@ repositories {
 
 ### Step B: Add Dependencies
 
-Include the PuzzleLayouts library in your **app-level** `build.gradle` file. Replace `x.x.x` with the latest version:
+Include the PuzzleLayouts library in your **app-level** `build.gradle` file. Replace `x.x.x` with the latest version: [![](https://jitpack.io/v/hypersoftdev/PuzzleLayout.svg)](https://jitpack.io/#hypersoftdev/PuzzleLayout)
 
 ```
-implementation 'com.github.hypersoftdev:PuzzleLayouts:x.x.x'
+implementation 'com.github.hypersoftdev:PuzzleLayout:x.x.x'
 ```
 
 ## Implementation
