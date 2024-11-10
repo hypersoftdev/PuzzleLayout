@@ -11,7 +11,7 @@
     <string name="layouts">Layouts</string>
     <string name="home">Home</string>
     <string name="select">Please Select Images</string>
-    <string name="select_only">You can select only five images</string>
+    <string name="select_only">You can select only Nine images</string>
     <string name="pswap">Swap</string>
     <string name="pmirror">Mirror</string>
     <string name="pflip">Flip</string>

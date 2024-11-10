@@ -43,6 +43,22 @@ class StraightLayoutHelper private constructor() {
                 5 -> for (i in 0 until 19) {
                     puzzleLayouts.add(FiveStraightLayout(i)) // Add layouts for themes 0 to 18
                 }
+
+                6 -> for (i in 0 until 12) {
+                    puzzleLayouts.add(SixStraightLayout(i)) // Add layouts for themes 0 to 11
+                }
+
+                7 -> for (i in 0 until 9) {
+                    puzzleLayouts.add(SevenStraightLayout(i)) // Add layouts for themes 0 to 8
+                }
+
+                8 -> for (i in 0 until 11) {
+                    puzzleLayouts.add(EightStraightLayout(i)) // Add layouts for themes 0 to 10
+                }
+
+                9 -> for (i in 0 until 8) {
+                    puzzleLayouts.add(NineStraightLayout(i)) // Add layouts for themes 0 to 7
+                }
             }
 
             return puzzleLayouts // Return the list of generated layouts

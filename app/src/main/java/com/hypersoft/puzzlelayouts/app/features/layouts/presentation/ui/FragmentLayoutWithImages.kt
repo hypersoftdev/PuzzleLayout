@@ -107,7 +107,9 @@ class FragmentLayoutWithImages : BaseFragment<FragmentLayoutWithImagesBinding>(F
         val pieces: MutableList<Bitmap> = ArrayList()
 
         val resIds = intArrayOf(
-            R.drawable.demo1, R.drawable.demo2, R.drawable.demo3, R.drawable.demo4, R.drawable.demo5
+            R.drawable.demo1, R.drawable.demo2, R.drawable.demo3,
+            R.drawable.demo4, R.drawable.demo5, R.drawable.demo6,
+            R.drawable.demo7, R.drawable.demo8, R.drawable.demo9,
         )
 
         // Determine the number of images to load

@@ -79,7 +79,7 @@ class FragmentMediaImageDetail : BaseFragment<FragmentMediaImageDetailBinding>(F
     private fun setUpListener() = binding.apply {
         nextButtonId.setOnClickListener {
             if (selectedImage.isNotEmpty()) {
-                if (selectedImage.size <= 5) {
+                if (selectedImage.size <= 9) {
                     navigateTo(R.id.fragmentMediaImage, R.id.action_fragmentMediaImage_to_fragmentMediaImagesLayouts)
                 } else {
                     context?.showToast(R.string.select_only)
