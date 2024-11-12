@@ -135,6 +135,22 @@ class FragmentMediaImagesLayouts : BaseFragment<FragmentMediaImagesLayoutsBindin
                 viewModelPuzzleLayouts.getPuzzleLayout(1, it.size, 0)
             }
 
+            6 -> {
+                viewModelPuzzleLayouts.getPuzzleLayout(1, it.size, 0)
+            }
+
+            7 -> {
+                viewModelPuzzleLayouts.getPuzzleLayout(1, it.size, 0)
+            }
+
+            8 -> {
+                viewModelPuzzleLayouts.getPuzzleLayout(1, it.size, 0)
+            }
+
+            9 -> {
+                viewModelPuzzleLayouts.getPuzzleLayout(1, it.size, 0)
+            }
+
             else -> {
 
             }
